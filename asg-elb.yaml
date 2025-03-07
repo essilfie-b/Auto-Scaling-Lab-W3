@@ -535,6 +535,7 @@ Resources:
         - Name: AutoScalingGroupName
           Value: !Ref MyASG
 
+#outputs
 Outputs:
   MyLoadBalancerURL:
     Description: URL of the deployed ALB
